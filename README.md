@@ -7,14 +7,9 @@ i3wm
 
 rofi
 
-neovim (appimage version for lazyvim compatibility)
+lazyvim
 
 kitty terminal
 
-spotify
-
-Grub customizer
-
-Brave Browser
 I'll put here the config files for the programs above that ask for them
 
