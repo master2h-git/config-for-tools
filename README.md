@@ -7,7 +7,7 @@ Those are, respectivly, :
 
 Kitty Terminal (the corresponding files are current-theme.conf and kitty.conf, and to work they need to be in /home/$USER/.config/kitty )
 
-Starship Prompt ()
+Starship Prompt (The file, to work, need to be in /home/$USER/.config)
 
 nvim (I use lazyvim for look  and the "snap --classic" for the package)(Iĺl also provide my lazyvim config, so you don't have to :)
 
@@ -26,17 +26,21 @@ starship, and add to your .bashrc this line: ' eval "$(starship init bash)" ' (i
 
 nvim, at the time of writting only the snap --classic version works with lazyvim (on my linux system) 
 
-rofi
+rofi 
 
-i3wm 
+i3wm
 
 feh
 
+wpctl
+
+brightnessctl
+
+numlockx
+
+volumeicon
 
 
-
-
-
-
+P.S. I'm kinda new to linux, so I ask for help of the people who visit this repo :)
 
 
