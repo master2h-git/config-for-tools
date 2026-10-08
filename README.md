@@ -20,6 +20,7 @@ polybar files (they will work if in /home/$USER/.config/polybar )
 and more to come :) ...
 
 for this "setup" to work, you need to install:
+
 kitty 
 
 starship, and add to your .bashrc this line: ' eval "$(starship init bash)" ' (if you use anothe shell go to https://starship.rs/ to find the correct line for each shell)
