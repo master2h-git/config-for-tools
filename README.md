@@ -41,7 +41,6 @@ numlockx
 
 volumeicon
 
-
 P.S. I'm kinda new to linux, so I ask for help of the people who visit this repo :)
-
+and if I forgot to mention a tool in this section of 'for this "setup" to work ' please write it in the issues section
 
