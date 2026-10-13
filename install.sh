@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #This is the install.sh file for autoconfig of this repo in your machine (you need to have cloned this repo before executing this script)
-cd ~
+cd /home/$USER
 #First, a full upgrade to kepe everything up-to date
 sudo apt update && sudo apt full-upgrade
 
@@ -30,4 +30,27 @@ sudo mv ~/config-for-tools/i3/config ~/.config/i3/
 sudo mv ~/config-for-tools/minecraft.jpg /usr/share/backgrounds/
 #End i3 config
 
-#start
+#start polybar config
+sudo apt install polybar
+sudo mv ~/config-for-tools/polybar/launch.sh ~/.config/polybar/
+sudo mv ~/config-for-tools/polybar/config ~/.config/polybar/
+#end polybar config
+
+#start starship config
+sudo apt install starship
+sudo mv ~/config-for-tools/starship/starship.toml ~/.config/
+#end starship config
+
+#start nvim config
+#First install snap if you didn't installed it yet
+sudo apt install snapd
+#!!! WARNING !!! DO NOT INSTALL SNAP, INSTALL SNAPD
+#IF YOU INSTALL SNAP IT WILL BE SOMETHING RELATED TO GENES
+sudo snap install nvim --classic
+sudo mv ~/config-for-tools/nvim/stylua.toml ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/init.lua ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/lazy-lock.json ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/lazyvim.json ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/LICENSE ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/README.md ~/.config/nvim/
+sudo mv ~/config-for-tools/nvim/lua/ ~/.config/nvim/
